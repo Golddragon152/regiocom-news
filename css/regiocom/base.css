@@ -1,0 +1,56 @@
+@import "defaults.css";
+@import "typography.css";
+@import "topbar.css";
+@import "grid.css";
+
+@import "news-general.css";
+@import "news-overview.css";
+@import "news-details.css";
+
+@import "slider.css";
+@import "dropdown.css";
+
+body {
+    background: #F7F7F7;
+    margin: 0;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+/** General
+=========================== */
+
+/** Content
+=========================== */
+.container > .content-page {
+    margin: 0 auto;
+    position: relative;
+}
+
+.container > .content-page > .content {
+    padding: 20px;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+@media screen and (min-width: 868px) and (max-width: 1399px) {
+    .container > .content-page > .content {
+        margin: 0px 40px;
+    }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1799px) {
+    .container > .content-page > .content {
+        margin: 0px 100px;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .container > .content-page > .content {
+        margin: 0px 160px;
+    }
+}

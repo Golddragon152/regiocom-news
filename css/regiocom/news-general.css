@@ -1,0 +1,84 @@
+/** Generic **/
+.container article.column > .column-inner {
+    position: relative;
+}
+
+/** Color **/
+.container article.column .color-1 {
+    background-color: #e7ecf3;
+}
+
+.container article.column .color-2 {
+    background-color: #A6BCD4;
+}
+
+.container article.column .color-3 {
+    background-color: #F0F0F0;
+}
+
+.container article.column .color-4  {
+    background-color: #ccc;
+}
+
+.container article.column > .column-inner .news-content > .news-title h1 {
+    color: #393939;
+}
+
+.container article.column .news-image > figure {
+    margin: 0;
+    overflow: hidden;
+}
+
+.container article.column .news-image > figure img {
+    min-height: 360px;
+    max-height: 360px;
+}
+
+.container .more-news article.column .news-image > figure figcaption,
+.container .overview article.column .news-image > figure figcaption {
+    position: absolute;
+    top: 12px;
+    left: 0px;
+    padding: 6px 12px;
+}
+
+.container article.column > .column-inner.color-1 .news-image > figure figcaption {
+    background-color: #e7ecf3;
+}
+
+.container article.column > .column-inner.color-2 .news-image > figure figcaption {
+    background-color: #A6BCD4;
+}
+
+.container article.column > .column-inner.color-3 .news-image > figure figcaption {
+    background-color: #F0F0F0;
+}
+
+.container article.column > .column-inner.color-4 .news-image > figure figcaption {
+    background-color: #ccc;
+}
+
+/** Responsive **/
+@media screen and (min-width: 868px) and (max-width: 1399px) {
+    .container .overview article.column.col-la-4 .news-content > .news-subtitle,
+    .container .overview article.column.col-la-3 .news-content > .news-subtitle,
+    .container .overview article.column.col-la-2 .news-content > .news-subtitle {
+        height: 70px;
+    }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1799px) {
+    .container .overview article.column.col-la-4 .news-content > .news-subtitle,
+    .container .overview article.column.col-la-3 .news-content > .news-subtitle,
+    .container .overview article.column.col-la-2 .news-content > .news-subtitle {
+        height: 70px;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .container .overview article.column.col-la-4 .news-content > .news-subtitle,
+    .container .overview article.column.col-la-3 .news-content > .news-subtitle,
+    .container .overview article.column.col-la-2 .news-content > .news-subtitle {
+        height: 100px;
+    }
+}

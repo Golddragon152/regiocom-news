@@ -1,0 +1,87 @@
+/** Details **/
+.container article.column.details {
+    margin-top: 80px;
+}
+
+.container article.column.details .news-content {
+}
+
+.container article.column.details .news-content > .news-title {
+}
+
+.container article.column.details .news-content > .news-title > h1 {
+    margin-bottom: 0;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #a5bbd4;
+}
+
+.container article.column.details .news-content > .news-title + img {
+    display: block; /* Padding fix */
+}
+
+.container article.column.details .news-content .news-subtitle {
+    padding: 12px 16px 0;
+}
+
+.container article.column.details .news-content .news-item {
+    padding: 16px;
+}
+
+.container article.column.details .news-content .news-item .column {
+    padding: 0;
+}
+
+.container article.column.details .news-content .news-item .column.col-la-3 + .column.col-la-1 {
+    padding-left: 2%;
+    width: 25%;
+}
+
+.container article.column.details .news-content .news-item .column.col-la-1 + .column.col-la-3 {
+    padding-left: 2%;
+    width: 73%;
+}
+
+.container article.column.details .news-content .news-image {
+    overflow-x: hidden;
+    margin-bottom: 16px;
+    vertical-align: top;
+}
+
+.container article.column.details .news-content .news-image figcaption {
+    margin-top: 6px;
+}
+
+.container article.column.details .news-content .news-image.quarter + .news-content {
+    width: 70%;
+}
+
+.container article.column.details .news-content h3.news-subheadline {
+    margin: 12px 0;
+}
+
+
+
+/** Weitere News **/
+.container .more-news  {
+    margin-top: 22px;
+}
+
+.container .more-news .column {
+    height: 520px;
+}
+
+.container .more-news .column > .column-inner {
+    height: 100%;
+}
+
+.container .more-news .column > .column-inner > .news-content{
+    padding: 0 8px;
+}
+
+.container .more-news .column > .column-inner .news-title {
+}
+
+.container .more-news .column > .column-inner .news-title h1 {
+    font-size: 2em;
+    margin: 8px 0;
+}

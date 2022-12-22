@@ -1,0 +1,50 @@
+/** Overview **/
+.container .overview article.column {
+    min-height: 260px;
+}
+
+.container .overview article.column .news-content {
+    margin: 0;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.container .overview article.column .news-image {
+    width: 100%;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.container .overview article.column .news-content {
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 12px;
+    height: 260px;
+}
+
+.container .overview article.column .news-content > .news-title a {
+    text-decoration: none;
+}
+
+.container .overview article.column .news-content > .news-title h1 {
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+.container .overview article.column .news-content > .news-subtitle {
+    height: 40px;
+}
+
+.container .overview article.column .news-content > .news-more {
+    margin-top: 16px;
+}
+
+.container .overview article.column .news-content > .news-more > a:hover {
+    color: inherit;
+}
+
+/** Grid specific **/
+.container .overview article.column.col-la-1 .news-content > .news-subtitle {
+    height: 60px;
+}

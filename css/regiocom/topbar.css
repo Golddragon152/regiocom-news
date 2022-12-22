@@ -1,0 +1,110 @@
+/** Topbar
+=========================== */
+.container > .topbar {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 60px;
+    z-index: 10;
+
+    border-bottom: 1px solid #f59e3f;
+    background-color: #fff;
+}
+
+/** Topbar Logo (topbar - left)
+=========================== */
+.container > .topbar > .topbar-left{
+    float: left;
+    position: relative;
+}
+
+.container > .topbar > .topbar-left > .logo {
+    display: inline-block;
+}
+
+/** Topbar Content (topbar - right)
+=========================== */
+.container > .topbar > .topbar-content {
+    margin-left: 560px;
+    position: relative;
+    overflow: hidden;
+    vertical-align: top;
+}
+
+@media screen and (min-width: 868px) and (max-width: 1399px) {
+    .container > .topbar > .topbar-content {
+        margin-left: 290px;
+    }
+
+    .container > .topbar > .topbar-left > .logo {
+        margin: 12px 0 0 66px;
+    }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1799px) {
+    .container > .topbar > .topbar-content {
+        margin-left: 340px;
+    }
+
+    .container > .topbar > .topbar-left > .logo {
+        margin: 12px 0 0 125px;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .container > .topbar > .topbar-content {
+        margin-left: 560px;
+    }
+
+    .container > .topbar > .topbar-left > .logo {
+        margin: 12px 0 0 326px;
+    }
+}
+
+.container > .topbar > .topbar-content > nav {
+    display: inline-block;
+
+}
+
+.container > .topbar > .topbar-content > nav > ul {
+    list-style: none;
+    margin: 0;
+}
+
+.container > .topbar > .topbar-content > nav > ul > li {
+    display: inline-block;
+    margin-right: 24px;
+}
+
+.container > .topbar > .topbar-content > nav > ul > li > span,
+.container > .topbar > .topbar-content > nav > ul > li > span > .fa,
+.container > .topbar > .topbar-content > nav > ul > li > a {
+    color: #ef7c00;
+    font-size: 1.375em;
+}
+
+.container > .topbar > .topbar-content > nav > ul > li > span > .fa {
+    font-size: 1em;
+}
+
+.container > .topbar > .topbar-content > nav > ul > li > span,
+.container > .topbar > .topbar-content > nav > ul > li > a {
+    padding: 21px 0px 7px;
+    display: inline-block;
+
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.container > .topbar > .topbar-content > nav > ul > li > span {
+    cursor: pointer;
+    padding-bottom: 13px;
+}
+
+.container > .topbar > .topbar-content > nav > ul > li > a:hover,
+.container > .topbar > .topbar-content > nav > ul > li > a.active {
+    text-decoration: none;
+    border-bottom: 5px solid #f59e3f;
+}

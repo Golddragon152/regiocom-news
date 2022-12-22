@@ -1,0 +1,153 @@
+* {
+    color: #393939;
+}
+
+h1 {
+    margin: 0.67em 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+h1,
+h2,
+.h1,
+.h2 {
+    color: #f59e3f;
+}
+
+h3,
+h4,
+.h3,
+.h4 {
+    color: #003d75;
+}
+
+h1,
+.h1 {
+    font-size: 2.250em;
+}
+
+h2,
+.h2 {
+    font-size: 1.875em;
+}
+
+h3,
+.h3 {
+    font-size: 1.5em;
+}
+
+h4,
+.h4 {
+    font-size: 1.125em;
+}
+
+h5,
+.h5 {
+    font-size: 0.875em;
+}
+
+h6,
+.h6 {
+    font-size: 0.750em;
+}
+
+h1.headline {
+    margin: 0;
+    margin-bottom: 8px;
+    color: #003d75;
+}
+
+@media screen and (min-width: 868px) and (max-width: 1399px) {
+    h1 {
+        font-size: 1.6em;
+    }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1799px) {
+    h1 {
+        font-size: 2em;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    h1 {
+        font-size: 2.250em;
+    }
+}
+
+.subtitle {
+    color: #393939;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+p {
+    margin: 0 0 10px;
+    font-size: 1.2em;
+}
+
+a {
+    color: #393939;
+    text-decoration: none;
+}
+
+.color-white {
+    color: #fff !important;
+}
+
+a:visited {
+    color: inherit;
+}
+
+a.active,
+a:hover {
+    color: #f59e3f;
+    text-decoration: underline;
+}
+
+a.button.active,
+a.button:hover {
+    text-decoration: none;
+}
+
+.fa {
+    color: #393939;
+    min-width: 20px;
+}
+
+a.fa {
+    text-decoration: none;
+}
+
+a > .fa:hover,
+a.fa:hover {
+    color: #f59e3f;
+}
+
+span.button > .button-icon.fa {
+    color: #777;
+}
+
+a.button > span.button-icon.fa:hover {
+    color: #fff !important;
+}
+
+.field a {
+    font-size: 1em;
+}
